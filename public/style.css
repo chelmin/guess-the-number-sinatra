@@ -1,0 +1,41 @@
+@import 'https://fonts.googleapis.com/css?family=Fjalla+One|PT+Sans';
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background-image: url("img/light-bg1.png");
+  font-family: 'PT Sans', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.title {
+  font-size: 60px;
+  color: cornflowerblue;
+}
+
+.btn {
+  font-size: inherit;
+  background-color: purple;
+  color: white;
+  text-decoration: none;
+  padding: 12px;
+  margin-bottom: 1.5em;
+  display: inline-block;
+}
+
+.guess {
+  font-size: 1.5em;
+  display: block;
+  margin: 0 auto 12px;
+}
+
+.trophy {
+  height: 300px;
+}
